@@ -19,6 +19,7 @@ export type RootStackParamList = {
   SudokuStats: undefined;
   MinesweeperDifficulty: undefined;
   MinesweeperGame: { rows: number; cols: number; mines: number };
-  MinesweeperResult: { time: number };
+  MinesweeperResult: { time: number; status: 'won' | 'lost' };
+  
 
 };
